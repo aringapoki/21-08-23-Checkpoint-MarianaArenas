@@ -1,0 +1,27 @@
+  133  git clone https://github.com/aringapoki/21-08-23-Checkpoint-MarianaArenas.git
+  134  cd
+  135  ls -al
+  136  cd DH
+  137  history
+  138  touch main.js index.html
+  139  git add .
+  140  git commit -m "commit 01 de Mariana Arenas"
+  141  git push origin main
+  142  git branch feature
+  143  git checkout feature
+  144  mkdir Hardware Software SeguridadInformatica
+  145  touch resumen.txt
+  146  cp ./Hardware ./Software ./SeguridadInformatica resumen.txt
+  147  cp resumen.txt ./Hardware ./Software ./SeguridadInformatica
+  148  cp -r  resumen.txt ./Hardware ./Software
+  149  cp resumen.txt ./Hardware
+  150  rmdir ./Software/Hardware
+  151  rm resumen.txt
+  152  git add .
+  153  git commit -m "commit 02 de Mariana Arenas"
+  154  git push origin feature
+  155  git checkout main
+  156  mv main.js resumenHardware.txt
+  157  mv index.html resumenSoftware.txt
+  158  touch comandos.txt
+  159  history > comandos.txt
